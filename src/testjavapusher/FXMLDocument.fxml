@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="testjavapusher.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="102.0" layoutY="87.0" onAction="#handleButtonAction" text="Connect To Pusher" />
+    </children>
+</AnchorPane>
